@@ -7,7 +7,7 @@ the other input takes 12v of an ACmains switching power supply. When solar power
 low) this device switches to other power supply.
 
 WebUI servers an http://esp32.local/latest.csv file containing voltage data to be parsed by external/remote application 
-for future developement (sending data via JS8CALL /LoRA or other radio transmission ways independend of Internet ???)
+for future developement (??? sending data via JS8CALL/LoRA/APRS or other radio transmission means, independent of Internet ???)
 Also there is an bme280 sensor to read and log temperature/pressure/humidity served to latest.csv file and log to remote MySQL server
 configurable in settings page.
 
